@@ -1,41 +1,12 @@
 # DFU review
 
-**Verdict:** PASS / PASS WITH CHANGES / FAIL  
-**Confidence:** high / moderate / low / unknown
+Use only decision-bearing fields; this is not a mandatory form.
 
-## Decision
-
-One sentence: what should change, or why nothing should change.
-
-## Why this fits Hermes
-
-- Supported owner chosen:
-- Simpler nearby options considered and rejected:
-- Current facts vs. recommendations:
-- Required or recommended policies applied:
-
-## Ownership
-
-- Policy owner:
-- Worker:
-- Only writer for the mutable target:
-- Live source of truth:
-- Read-only reviewers:
-
-## Proof
-
-- Real entry point and consumer path:
-- Exact live result to inspect:
-- Initial acceptance test:
-- One-time follow-up and timing:
-
-## Safety
-
-- State or files affected:
-- Approval boundary:
-- Rollback:
-- What would prove the design wrong:
-
-## Required changes
-
-- None / concise blocking changes.
+**Decision / outcome:** What should change, or what now works? Is it proposed or applied?
+**Why:** Simplest supported owner; real alternative and tradeoff when one exists.
+**Authority:** Scope, one writer, and any separate approval still needed.
+**Independent review:** Concrete decision changed, or no material correction. No recursive review.
+**Proof:** Highest observed boundary—design, saved edit, local test, real path or natural run. Name unexercised parts; missing evidence is inconclusive, not automatic PASS/FAIL.
+**Reversal:** Narrow rollback that preserves other work.
+**Later evidence, if needed:** Existing natural run or in-scope check first; a new bounded check only for a meaningful gap within authority.
+**Confidence:** high / moderate / low / unknown, with the material limit.

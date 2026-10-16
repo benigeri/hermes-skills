@@ -26,7 +26,7 @@ REQUIRED_LINKS = (
 )
 REQUIRED_FRONTMATTER = {
     "name": "dfu",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "author": "benigeri",
     "license": "MIT",
 }
