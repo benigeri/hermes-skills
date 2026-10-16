@@ -69,7 +69,7 @@ Submit changes through a reviewed pull request. A release must include:
 - a clean-profile install and load test;
 - one representative real-path review;
 - rollback instructions; and
-- a one-time follow-up check after the first real use or within 24–72 hours.
+- a meaningful later observation through normal use or an existing check; add a new bounded follow-up only for a specific evidence gap within the approved scope.
 
 ## License
 

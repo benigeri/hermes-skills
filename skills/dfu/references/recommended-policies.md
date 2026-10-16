@@ -26,7 +26,7 @@ Require explicit approval before:
 - scheduling a recurring job or webhook; or
 - patching Hermes core.
 
-An implementation approval covers only the stated target and scope.
+An implementation approval covers only the stated target and scope. Propose and obtain explicit approval for new standing custom code, including small helpers, before introducing it. Do not ask again for the same already-approved action.
 
 ## 5. Prefer supported and reversible mechanisms
 
@@ -48,11 +48,11 @@ Before shipping a new profile owner, recurring route, new write authority, cross
 2. **Native fit:** Does current Hermes documentation support this owner and mechanism?
 3. **Clarity:** Can an operator explain the owner, writer, test, rollback, and approval boundary in plain language?
 
-Resolve blocking findings before shipment.
+Use one independent read-only reviewer for substantive audits, plans and changes; simple explanations need none. Give the reviewer the original goal, sources and applicable skills. Do not recursively delegate another review. Resolve material findings; optional polish does not justify another round.
 
-## 9. Follow up once
+## 9. Use proportional proof
 
-After a standing behavior change, define a one-time check for the first meaningful real use or within 24–72 hours. A read-only DFU review specifies the check but does not schedule or assign it. Create the task or schedule only when that mutation is included in the approved scope; otherwise request explicit approval. Confirm the behavior still holds, then let the check expire unless ongoing monitoring was requested.
+For wording changes, inspect the saved instructions and contrasting cases. For workflow changes, check the actual consumer path. Prefer the next meaningful natural run or an existing check for delayed evidence. Add a new bounded check only when it closes a concrete gap and the authority includes scheduling it. Missing observations remain unexercised; do not invent a PASS or FAIL. Deliver verified portions while holding only dependent actions.
 
 ## 10. Keep DFU direct but bounded
 

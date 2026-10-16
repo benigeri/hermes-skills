@@ -27,4 +27,4 @@ Read current official Hermes documentation and inspect the relevant live state f
 - a broad profile is cloned instead of building the least-needed profile from scratch;
 - a plugin is rejected merely because it contains code, or chosen when configuration, MCP, or a built-in extension already owns the requirement more simply;
 - success is inferred from process state rather than the real consumer result; or
-- a standing behavior change has no rollback or timed one-time follow-up check.
+- a standing behavior change has no rollback or meaningful verification plan. Prefer an existing natural observation; do not require a new timed job by default.
